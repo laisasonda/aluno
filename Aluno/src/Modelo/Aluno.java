@@ -14,20 +14,20 @@ public class Aluno {
   private String nome;
   private String endereco;
 
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
     public int getCodigo() {
         return codigo;
     }
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public String getEndereco() {
@@ -40,8 +40,11 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno{" + "codigo=" + codigo + ", nome=" + nome + ", endereco=" + endereco + '}';
+        return "Aluno{" + "nome=" + nome + '}';
     }
   
-    
+  
 }
+  
+    
+
